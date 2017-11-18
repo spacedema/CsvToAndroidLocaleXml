@@ -13,9 +13,9 @@
 
 2. Csv format:
 
-   Id,          En,           Es,         It
+   Id,En,Es,It
    
-   hello_world, Hello World,  Hola Mundo, Ciao mondo
+   hello_world,Hello World,Hola Mundo,Ciao mondo
    
    3 files will be generated: En.xml, Es,xml and It.xml
 
