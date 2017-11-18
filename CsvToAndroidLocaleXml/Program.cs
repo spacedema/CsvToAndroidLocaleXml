@@ -71,7 +71,11 @@ namespace CsvToAndroidLocaleXml
                 var rootNode = new XElement("resources");
                 foreach (var localeItem in locale.Items)
                 {
-                    rootNode.Add(new XElement(localeItem.Id) { Value = localeItem.Value });
+                    var entry = new XElement("string", new XAttribute("name", localeItem.Id))
+                    {
+                        Value = localeItem.Value,
+                    };
+                    rootNode.Add(entry);
                 }
                 var xmlDoc = new XDocument();
                 xmlDoc.Add(rootNode);
