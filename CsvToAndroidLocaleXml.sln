@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvToAndroidLocaleXml", "CsvToAndroidLocaleXml\CsvToAndroidLocaleXml.csproj", "{87B85F3E-6B48-48F8-AADD-F5DB43E81453}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{244A7A30-A09A-4846-9D28-AD701BFED608}"
+	ProjectSection(SolutionItems) = preProject
+		CsvToAndroidLocaleXml\bin\Debug\CsvToAndroidLocaleXml.exe = CsvToAndroidLocaleXml\bin\Debug\CsvToAndroidLocaleXml.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
